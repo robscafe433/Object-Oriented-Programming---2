@@ -8,7 +8,7 @@ function Car(make, model, year) {
 
 const myCar = new Car("Toyota", "Tundra", 2024);
 
-// This exercise is to practice prototypes. Which  reduce overhead because in this example the function is not inside of the object.
+// This exercise is to practice prototypes. Which  reduces overhead because in this example the function is not inside of the object.
 
 Car.prototype.consoleMessage = function () {
 	console.log(
